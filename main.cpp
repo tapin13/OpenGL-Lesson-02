@@ -4,7 +4,6 @@
 float WinWid = 400.0;
 float WinHei = 400.0;
 
-
 void Draw() {
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(1.0, 1.0, 1.0);
@@ -17,8 +16,6 @@ void Draw() {
         glVertex2f(-WinWid/2, i);
         glVertex2f(WinWid/2, i);
     }
-    
-        glVertex2f(0.0, 0.0);
     glEnd();
     glFlush();
 }
