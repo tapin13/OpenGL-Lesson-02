@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
     glutInitWindowSize(WinWid, WinHei);
     glutInitWindowPosition(100, 200);
-    glutCreateWindow("Lesson 01");
+    glutCreateWindow("Lesson 02");
     
     glutDisplayFunc(Draw);
     Initsialaize();
